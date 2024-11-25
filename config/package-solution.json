@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "favorite-ceo-question-client-side-solution",
+    "id": "44ffb3ec-52fa-474e-9ba2-19d390bec6e9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "favorite-ceo-question description"
+      },
+      "longDescription": {
+        "default": "favorite-ceo-question description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "favorite-ceo-question Feature",
+        "description": "The feature that activates elements of the favorite-ceo-question solution.",
+        "id": "c2abd3c7-c823-416d-9234-c983297cc98d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/favorite-ceo-question.sppkg"
+  }
+}

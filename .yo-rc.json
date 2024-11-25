@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "favorite-ceo-question",
+    "libraryId": "44ffb3ec-52fa-474e-9ba2-19d390bec6e9",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "favorite-ceo-question",
+    "solutionShortDescription": "favorite-ceo-question description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

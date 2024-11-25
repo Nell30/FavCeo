@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "favorite-ceo-question-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/favoriteCeoQuestion/FavoriteCeoQuestionWebPart.js",
+          "manifest": "./src/webparts/favoriteCeoQuestion/FavoriteCeoQuestionWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FavoriteCeoQuestionWebPartStrings": "lib/webparts/favoriteCeoQuestion/loc/{locale}.js"
+  }
+}
